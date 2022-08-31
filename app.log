@@ -1,0 +1,90 @@
+31-Aug-22 13:11:36 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:11:48 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:11:55 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:12:42 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:13:04 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:17:00 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:17:13 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:17:20 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:18:08 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+31-Aug-22 13:18:32 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/HoloSubs/hololiver.py", line 18, in __post_init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/HoloSubs/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
