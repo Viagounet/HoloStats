@@ -22,4 +22,4 @@ class UserSet:
         return (user for user in self.users.values())
 
     def __repr__(self):
-        return "UserSet(users={})".format(self.users.keys())
+        return self.users.keys()

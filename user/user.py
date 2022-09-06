@@ -1,7 +1,6 @@
 from dataclasses import dataclass
 
 
-
 @dataclass
 class User:
     channel_id: str
@@ -9,19 +8,19 @@ class User:
     name: str
 
     def __post_init__(self):
-        self.channels = {}
         self.is_member = False
+        self.nb_messages = 0
+
 
     def add_message(self, message, channel):
+        self.nb_messages += 1
         if message["author"]["type"] == "MEMBER":
             self.is_member = True
-        if channel.id not in self.channels.keys():
-            self.channels[channel.id] = {"messages": 1}
-        else:
-            self.channels[channel.id]["messages"] += 1
-    @property
-    def nb_messages(self):
-        return sum([channel.nb_messages for channel in self.channels.values()])
+
+    def json(self):
+        return {"channel-id": self.channel_id, "name": self.name, "member": self.is_member,
+                "messages": self.nb_messages}
 
     def __repr__(self):
-        return "user(channel_id={}, channel_url={}, channels={})".format(self.channel_id, self.channel_url, self.channels)
+        return "user(channel_id={}, channel_url={}, channels={})".format(self.channel_id, self.channel_url,
+                                                                         self.channels)

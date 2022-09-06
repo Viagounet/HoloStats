@@ -361,3 +361,56 @@ IndexError: list index out of range
 
 
 
+06-Sep-22 02:08:43 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '"DAMMIT GURA!!"'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHR0ZEdjNWVtYzRYMnREUm1OVE1UVlJZMlJ2Y1UxSFVuY1NHME5RY2tSd2NuSkdPRjlyUTBaYVprcG5aMjlrVlhCSlNtcDNNQm80R2cwS0MxQlpXVk10ZUhVeWRYaFpLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMVUZsWlV5MTRkVEoxZUZrZ0FTZ0VNaG9LR0ZWRE9YSjNiekZqTm5RMU56SlNkVTFXTFZWSlFUWkNkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLbXRnOXpnOF9rQ0ZjUzE1UWNkb3FNR1J3EhtDUHJEcHJyRjhfa0NGWmZKZ2dvZFVwSUpqdzA%3D', 'timestampUsec': '1662040867395299', 'authorExternalChannelId': 'UC9rwo1c6t572RuMV-UIA6Bw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '3:28:24'}}}
+
+
+
+06-Sep-22 02:10:58 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '"DAMMIT GURA!!"'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHR0ZEdjNWVtYzRYMnREUm1OVE1UVlJZMlJ2Y1UxSFVuY1NHME5RY2tSd2NuSkdPRjlyUTBaYVprcG5aMjlrVlhCSlNtcDNNQm80R2cwS0MxQlpXVk10ZUhVeWRYaFpLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMVUZsWlV5MTRkVEoxZUZrZ0FTZ0VNaG9LR0ZWRE9YSjNiekZqTm5RMU56SlNkVTFXTFZWSlFUWkNkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLbXRnOXpnOF9rQ0ZjUzE1UWNkb3FNR1J3EhtDUHJEcHJyRjhfa0NGWmZKZ2dvZFVwSUpqdzA%3D', 'timestampUsec': '1662040867395299', 'authorExternalChannelId': 'UC9rwo1c6t572RuMV-UIA6Bw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '3:28:24'}}}
+
+
+
+06-Sep-22 14:17:47 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+06-Sep-22 14:37:21 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+06-Sep-22 14:42:19 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+06-Sep-22 14:54:17 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+06-Sep-22 14:55:09 - Exception occurred
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 42, in get_video_details
+    "actual_end_time": dateutil.parser.isoparse(live_streaming_details['actualEndTime']),
+KeyError: 'actualEndTime'
