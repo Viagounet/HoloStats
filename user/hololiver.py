@@ -1,4 +1,5 @@
 import json
+import logging
 from dataclasses import dataclass
 
 from stats.holostats import Holostats
@@ -54,14 +55,17 @@ class Hololiver(Channel):
 
     def retrieve_streams(self):
         for stream_id in return_video_ids(self.playlist_id):
-            print(f"Retrieving info about : {stream_id}")
-
-            stream = Stream(stream_id, self)
-            stream.chat.start()
-            self.videos.append(stream)
-            print(
-                f"Done! Members found {len(stream.chat.members)} / Total members for {self.name} : {self.nb_numbers} - {stream}")
-            self.save()
+            try:
+                print(f"Retrieving info about : {stream_id}")
+                stream = Stream(stream_id, self)
+                stream.chat.start()
+                self.videos.append(stream)
+                print(
+                    f"Done! Members found {len(stream.chat.members)} / Total members for {self.name} : {self.nb_numbers} - {stream}")
+                self.save()
+            except Exception as ex:
+                print("There's been an error while processing streams :", ex)
+                logging.error("There's been an error while processing streams", exc_info=True)
 
     @property
     def json(self):

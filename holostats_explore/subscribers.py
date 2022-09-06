@@ -26,9 +26,12 @@ for hololiver in hololivers:
                 df_dict["member"].append(data_dict["name"])
 
 df = pd.DataFrame.from_dict(df_dict)
+hololivers = df["member"].unique()
 fig = go.Figure()
-fig.add_trace(go.Scatter(name="Gawr Gura", x=df["date"], y=df["subscribers"]))
-fig.add_trace(go.Scatter(name="Sana", x=df["date"], y=df["subscribers"]*0.5))
+for hololiver in hololivers:
+    df_limited = df[df["member"]==hololiver]
+    fig.add_trace(go.Scatter(name=hololiver, x=df_limited["date"], y=df_limited["subscribers"]))
+
 layout_subscribers = html.Div(
     [
         html.H1("Numbers ehe", className="text-info"),

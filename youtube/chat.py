@@ -24,15 +24,19 @@ class Chat:
         i = 0
         while not validated or i > 3:
             try:
-                chat = pytchat.create(video_id=self.id)
-                validated = True
-            except httpx.ReadTimeout:
-                i += 1
-                print("Error loading chat")
-                logging.error("Exception occurred (Error loading chat) ", exc_info=True)
-                time.sleep(5)
+                try:
+                    chat = pytchat.create(video_id=self.id)
+                    validated = True
+                except httpx.ReadTimeout:
+                    i += 1
+                    print("Error loading chat")
+                    logging.error("Exception occurred (Error loading chat) ", exc_info=True)
+                    time.sleep(5)
+            except:
+                pass
 
-        while chat.is_alive():
+
+        while chat.is_alive() and validated:
             try:
                 _ = json.loads(chat.get().json())
                 for message in _:
