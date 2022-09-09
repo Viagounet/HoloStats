@@ -45,9 +45,8 @@ class Chat:
             except Exception:
                 print("Error reading chat")
                 logging.error("Exception occurred (Error reading chat) ", exc_info=True)
+        self.members = [c for c in self.chatters if c.is_member]
 
     def json(self):
         return {"members":[member.json() for member in self.members], "number messages":self.n_messages}
-    @property
-    def members(self):
-        return [c for c in self.chatters if c.is_member]
+

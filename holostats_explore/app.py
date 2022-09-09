@@ -2,6 +2,7 @@ import dash
 import dash_bootstrap_components as dbc
 from dash import Input, Output, dcc, html
 
+from holostats_explore.details import layout_details
 from holostats_explore.subscribers import layout_subscribers
 
 app = dash.Dash(external_stylesheets=[dbc.themes.FLATLY])
@@ -36,6 +37,7 @@ sidebar = html.Div(
             [
                 dbc.NavLink("Subscribers", href="/", active="exact"),
                 dbc.NavLink("Community", href="/community", active="exact"),
+                dbc.NavLink("VTuber stats details", href="/details", active="exact"),
             ],
             vertical=True,
             pills=True,
@@ -53,8 +55,8 @@ app.layout = html.Div([dcc.Location(id="url"), sidebar, content])
 def render_page_content(pathname):
     if pathname == "/":
         return layout_subscribers
-    elif pathname == "/page-1":
-        return html.P("This is the content of page 1. Yay!")
+    elif pathname == "/details":
+        return layout_details
     # If the user tries to reach a different page, return a 404 message
     return html.Div(
         [

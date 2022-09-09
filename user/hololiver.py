@@ -14,37 +14,36 @@ class Hololiver(Channel):
         super(Hololiver, self).__init__(id=id)
         self.name = name
         self.id = id
-
+        self.members_dict = {}
+        self.members_by_month_dict = {}
         self.statistics: Holostats = Holostats()
 
     @property
     def members(self):
-        members_dict = {}
         for stream in self.videos:
             user_set = stream.chat.members
             for user in user_set:
-                if user.is_member and user.channel_id not in members_dict:
-                    members_dict[user.channel_id] = user
-                elif user.is_member and user.channel_id in members_dict:
-                    members_dict[user.channel_id].nb_messages += user.nb_messages
-        return members_dict
+                if user.is_member and user.channel_id not in self.members_dict:
+                    self.members_dict[user.channel_id] = {"name": user.name, "nb_messages": user.nb_messages,
+                                                          "channel_url": user.channel_url}
+                elif user.is_member and user.channel_id in self.members_dict:
+                    self.members_dict[user.channel_id]["nb_messages"] += user.nb_messages
+        return self.members_dict
 
     @property
     def members_by_month(self):
-        members = {}
         for stream in self.videos:
             if hasattr(stream, 'actual_start_time'):
                 year, month = stream.actual_start_time.year, stream.actual_start_time.month
-                members.setdefault(year, {})
-                members[year].setdefault(month, {})
+                self.members_by_month_dict.setdefault(year, {})
+                self.members_by_month_dict[year].setdefault(month, {})
                 user_set = stream.chat.members
                 for user in user_set:
                     # A little bit convoluted but ay, it works..
-                    if user.is_member and user.channel_id not in members[year][month].keys():
-                        members[year][month][user.channel_id] = user
-                    elif user.is_member and user.channel_id in members:
-                        members[year][month][user.channel_id].nb_messages += user.nb_messages
-        return members
+                    if user.is_member and user.channel_id not in self.members_by_month_dict[year][month].keys():
+                        self.members_by_month_dict[year][month][user.channel_id] = {"name": user.name,
+                                                                                    "channel_url": user.channel_url}
+        return self.members_by_month_dict
 
     @property
     def nb_numbers(self):
@@ -58,7 +57,6 @@ class Hololiver(Channel):
             try:
                 print(f"Retrieving info about : {stream_id}")
                 stream = Stream(stream_id, self)
-                stream.chat.start()
                 self.videos.append(stream)
                 print(
                     f"Done! Members found {len(stream.chat.members)} / Total members for {self.name} : {self.nb_numbers} - {stream}")
@@ -69,17 +67,21 @@ class Hololiver(Channel):
 
     @property
     def json(self):
-        return {
-            "videos": [video.json() for video in self.videos],
+        videos = self.videos
+        videos_json = [video.json() for video in videos]
+        self.monthly_members_dict = self.members_by_month
+        json_dict = {
+            "videos": videos_json,
             "name": self.name,
             "stats": [],
             "members": {
                 year: {
-                    month: {"members-list": [member.json() for member in self.members_by_month[year][month].values()],
+                    month: {"members-list": [member for member in self.monthly_members_dict[year][month].values()],
                             "nb-members": len(
-                                [member.json() for member in self.members_by_month[year][month].values()])} for month in
-                    self.members_by_month[year].keys()} for year in self.members_by_month.keys()}
+                                [member for member in self.monthly_members_dict[year][month].values()])} for month in
+                    self.monthly_members_dict[year].keys()} for year in self.monthly_members_dict.keys()}
         }
+        return json_dict
 
     @property
     def light_json(self):
@@ -89,9 +91,10 @@ class Hololiver(Channel):
             "members": {
                 year: {
                     month: {"nb-members": len(
-                                [member.json() for member in self.members_by_month[year][month].values()])} for month in
+                        [member for member in self.members_by_month[year][month].values()])} for month in
                     self.members_by_month[year].keys()} for year in self.members_by_month.keys()}
         }
+
     def save(self):
         with open(f"data/full/{self.name}.json", "w") as f:
             json.dump(self.json, f)

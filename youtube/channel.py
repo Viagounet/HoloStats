@@ -18,7 +18,6 @@ class Channel:
     def retrieve_streams(self):
         for stream_id in return_video_ids(self.playlist_id):
             stream = Stream(stream_id, self)
-            stream.chat.start()
             self.videos.append(stream)
 
     def __repr__(self):

@@ -1,3 +1,4 @@
+import inspect
 from dataclasses import dataclass
 
 
@@ -11,7 +12,6 @@ class User:
         self.is_member = False
         self.nb_messages = 0
 
-
     def add_message(self, message, channel):
         self.nb_messages += 1
         if message["author"]["type"] == "MEMBER":
@@ -22,5 +22,4 @@ class User:
                 "messages": self.nb_messages}
 
     def __repr__(self):
-        return "user(channel_id={}, channel_url={}, channels={})".format(self.channel_id, self.channel_url,
-                                                                         self.channels)
+        return "user(channel_id={}, channel_url={})".format(self.channel_id, self.channel_url)

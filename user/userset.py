@@ -12,14 +12,13 @@ class UserSet:
         if message["author"]["channelId"] in self.users:
             user = self.retrieve_user_by_id(message["author"]["channelId"])
             user.add_message(message, channel_id)
-
         else:
             user = User(message["author"]["channelId"], message["author"]["channelUrl"], message["author"]["name"])
             user.add_message(message, channel_id)
             self.users[user.channel_id] = user
 
     def __iter__(self):
-        return (user for user in self.users.values())
+        return (user for user in {k: v for k, v in sorted(self.users.items(), key=lambda item: item[1].name)}.values())
 
     def __repr__(self):
-        return self.users.keys()
+        return str(self.users.items())
