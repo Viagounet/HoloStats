@@ -10,7 +10,7 @@ from youtube.channel import Channel
 logging.basicConfig(filename='app.log', filemode='a', format='%(asctime)s - %(message)s\n\n\n',
                     datefmt='%d-%b-%y %H:%M:%S')
 
-
+# [DBD] shark is hungry for ...human
 holo_manager = HololiversManager()
 
 df = pd.read_csv('hololivers.csv', sep=';')

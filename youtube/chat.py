@@ -33,8 +33,9 @@ class Chat:
                     logging.error("Exception occurred (Error loading chat) ", exc_info=True)
                     time.sleep(5)
             except:
-                pass
-
+                print("YET ANOTHER DUMB ERROR")
+                logging.error("YET ANOTHER DUMB ERROR", exc_info=True)
+                time.sleep(5)
 
         while chat.is_alive() and validated:
             try:

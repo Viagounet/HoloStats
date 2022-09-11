@@ -31,6 +31,7 @@ fig = go.Figure()
 for hololiver in hololivers:
     df_limited = df[df["member"]==hololiver]
     fig.add_trace(go.Scatter(name=hololiver, x=df_limited["date"], y=df_limited["subscribers"]))
+    fig.update_yaxes(range=[0, 13000])
 
 layout_subscribers = html.Div(
     [

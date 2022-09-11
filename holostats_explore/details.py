@@ -17,22 +17,25 @@ for hololiver in hololivers:
         member = data_dict["name"]
         videos = data_dict["videos"]
         for video in videos:
-            videos_dict["member"].append(member)
-            for key, value in video.items():
-                if key not in videos_dict:
-                    videos_dict[key] = []
-                videos_dict[key].append(value)
+            if "comment_count" in video.keys():
+                videos_dict["member"].append(member)
+                for key, value in video.items():
+                    if key not in videos_dict and key!="stats":
+                        videos_dict[key] = []
+                    videos_dict[key].append(value)
+for key, value in videos_dict.items():
+    print(key, len(value))
 df = pd.DataFrame.from_dict(videos_dict)
 df_limited = df[df["member"] == "Gawr Gura"]
 
 
 def engagement(comment_percent, views, member):
     df_limited = df[df["member"] == member]
-    comment_percent_float = [math.log(float(percent)) / math.log(float(views ** 2)) for percent in
+    comment_percent_float = [math.log(float(percent)+1) / math.log(float(views ** 2)+1) for percent in
                              df_limited["percent_comment"]]
     min_p = min(comment_percent_float)
     max_p = max(comment_percent_float)
-    engagement_rate = np.interp(math.log(float(comment_percent)) / math.log(float(views ** 2)), [min_p, max_p], [0, 1])
+    engagement_rate = np.interp(math.log(float(comment_percent)+1) / math.log(float(views ** 2)+1), [min_p, max_p], [0, 1])
     return engagement_rate
 
 

@@ -25,7 +25,7 @@ class Video:
             print("Successfully retrieved video details for {}".format(self.id))
         except Exception as e:
             print("Video error occured (id={})".format(self.id))
-            logging.error("Exception occurred", exc_info=True)
+            logging.error("Video error occured", exc_info=True)
 
     def json(self):
         json_dict = {}

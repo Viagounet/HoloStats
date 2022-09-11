@@ -1,0 +1,218 @@
+10-Sep-22 14:18:46 - Video error occured
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 40, in get_video_details
+    "actual_start_time": dateutil.parser.isoparse(live_streaming_details['actualStartTime']),
+KeyError: 'actualStartTime'
+10-Sep-22 14:25:37 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '"DAMMIT GURA!!"'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHR0ZEdjNWVtYzRYMnREUm1OVE1UVlJZMlJ2Y1UxSFVuY1NHME5RY2tSd2NuSkdPRjlyUTBaYVprcG5aMjlrVlhCSlNtcDNNQm80R2cwS0MxQlpXVk10ZUhVeWRYaFpLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMVUZsWlV5MTRkVEoxZUZrZ0FTZ0VNaG9LR0ZWRE9YSjNiekZqTm5RMU56SlNkVTFXTFZWSlFUWkNkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLbXRnOXpnOF9rQ0ZjUzE1UWNkb3FNR1J3EhtDUHJEcHJyRjhfa0NGWmZKZ2dvZFVwSUpqdzA%3D', 'timestampUsec': '1662040867395299', 'authorExternalChannelId': 'UC9rwo1c6t572RuMV-UIA6Bw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '3:28:24'}}}
+
+
+
+10-Sep-22 15:02:57 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'you so cute and cringe i love it'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Le2sLnMDMirmF9r7IzE0Bq1oi_o2Cc0v2SZP13leV4Q=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Le2sLnMDMirmF9r7IzE0Bq1oi_o2Cc0v2SZP13leV4Q=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDE2Y3pKSmJVcDBkbXREUmxwMVZ6VlJZMlIzY1dkTFRYY1NHME5KVEhrM05GTktkSFpyUTBabGRWUTFVV05rVWt3NFJUZDNNQm80R2cwS0MyOVJSbk16Y1VSRVNGZFJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYjFGR2N6TnhSRVJJVjFFZ0FTZ0VNaG9LR0ZWRGNrTmpVazh5WlhaUlUxSlRNV2R4ZW5jMFZrNVlVVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNenMySW1KdHZrQ0ZadVc1UWNkd3FnS013EhtDSUx5NzRTSnR2a0NGZXVUNVFjZFJMOEU3dzA%3D', 'timestampUsec': '1659921396807303', 'authorExternalChannelId': 'UCrCcRO2evQSRS1gqzw4VNXQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:12:52'}}}
+
+
+
+10-Sep-22 15:18:43 - Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 229, in process_input
+    "Invalid input %s in state %s" % (input_, old_state)
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+10-Sep-22 15:18:45 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 229, in process_input
+    "Invalid input %s in state %s" % (input_, old_state)
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Python37\lib\site-packages\httpcore\_sync\connection_pool.py", line 253, in handle_request
+    raise exc
+  File "C:\Python37\lib\site-packages\httpcore\_sync\connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "C:\Python37\lib\site-packages\httpcore\_sync\connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "C:\Python37\lib\site-packages\pytchat\core\__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "C:\Python37\lib\site-packages\pytchat\core\pytchat.py", line 96, in __init__
+    self._setup()
+  File "C:\Python37\lib\site-packages\pytchat\core\pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "C:\Python37\lib\site-packages\pytchat\util\__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "C:\Python37\lib\site-packages\httpx\_client.py", line 1048, in get
+    extensions=extensions,
+  File "C:\Python37\lib\site-packages\httpx\_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "C:\Python37\lib\site-packages\httpx\_client.py", line 906, in send
+    history=[],
+  File "C:\Python37\lib\site-packages\httpx\_client.py", line 933, in _send_handling_auth
+    history=history,
+  File "C:\Python37\lib\site-packages\httpx\_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "C:\Python37\lib\site-packages\httpx\_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "C:\Python37\lib\contextlib.py", line 130, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+10-Sep-22 16:09:23 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hey'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHgxYWpWUGNuUTNVR05EUmxnd1FuSlJXV1JYYzFsT1YwRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNNUm80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNMdWo1T3J0N1BjQ0ZYMEJyUVlkV3NZTldBEhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzE%3D', 'timestampUsec': '1653007776813555', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '48:17'}}}
+
+
+
+10-Sep-22 16:09:23 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hey .'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHRmVGpSUVNIUTNVR05EUmxsTlVuSlJXV1JVYmxsTFpsRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNNaG80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLX040UEh0N1BjQ0ZZTVJyUVlkVG5ZS2ZREhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzI%3D', 'timestampUsec': '1653007791433445', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '48:32'}}}
+
+
+
+10-Sep-22 16:09:40 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'bong bong marcos HAHAHAHAHAHAHAHHA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDFoYm1kamVuYzNVR05EUmxoSlJXWlJiMlJ2TVZsR1psRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNOQm80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNYW5nY3p3N1BjQ0ZYSUVmUW9kbzFZRmZREhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzQ%3D', 'timestampUsec': '1653008517583862', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:00:38'}}}
+
+
+
+10-Sep-22 17:17:32 - Video error occured
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+10-Sep-22 17:28:45 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I MADE IT'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDVwWTNRMlNERnhVRmxEUm1aaVFuZG5VV1JLTTI5UGVFRVNHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NQm80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNOaWN0NkgxcVBZQ0ZmYkJ3Z1FkSjNvT3hBEhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzA%3D', 'timestampUsec': '1646275261746798', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:27'}}}
+
+
+
+10-Sep-22 17:28:45 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I JUST FINISHED MAH EXAMS HAHAHAHHA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDl5VTNSaFpqRnhVRmxEUmxGdmRYSlJXV1J2WjNOSlFYY1NHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NUm80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNPclN0YWYxcVBZQ0ZRb3VyUVlkb2dzSUF3EhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzE%3D', 'timestampUsec': '1646275274303894', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:39'}}}
+
+
+
+10-Sep-22 17:28:46 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'oh nyo i failed all of it'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMGx5TjNoeFh6RnhVRmxEUmxaelpISlJXV1ExZVdkUE1sRVNHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NaG80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNJcjd4cV8xcVBZQ0ZWc2RyUVlkNXlnTzJREhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzI%3D', 'timestampUsec': '1646275291364821', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:56'}}}
+
+
+
+10-Sep-22 18:23:22 - Video error occured
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+10-Sep-22 19:04:56 - Video error occured
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+10-Sep-22 22:38:35 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'collect netherite'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/DplTsHJpHNLBiCXGKvBmpheOGP7f7PgjM3ssha7Lzk3-R274n71V-BYOZuxLc-D9RMWkqBhNBg=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/DplTsHJpHNLBiCXGKvBmpheOGP7f7PgjM3ssha7Lzk3-R274n71V-BYOZuxLc-D9RMWkqBhNBg=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMHRUUlRsS2FuSjVVRTFEUm1WUlpHWlJiMlJEWDFGTVEyY1NKME5PZFhCcVgxOXhlVkJOUTBaVE0xbGpkMFZrTjJORlJGZFJNVFl6TkRFM056a3pNREF5TmhvNEdnMEtDMHcxUVhvNVdWaE9WVlZuS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTFREVkJlamxaV0U1VlZXY2dBU2dFTWhvS0dGVkRka2xDVWtzMGMyRklVRE41Um1Kd1YyNTRjRm94UVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNLU0U5SmpyeVBNQ0ZlUWRmUW9kQ19RTENnEidDTnVwal9fcXlQTUNGUzNZY3dFZDdjRURXUTE2MzQxNzc5MzAwMjY%3D', 'timestampUsec': '1634177931608677', 'authorExternalChannelId': 'UCvIBRK4saHP3yFbpWnxpZ1A', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '22:41'}}}
+
+
+
+11-Sep-22 00:10:19 - Video error occured
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+11-Sep-22 03:35:19 - Video error occured
+
+
+Traceback (most recent call last):
+  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+11-Sep-22 05:50:21 - Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\h2\connection.py", line 229, in process_input
+    "Invalid input %s in state %s" % (input_, old_state)
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
