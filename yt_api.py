@@ -26,7 +26,7 @@ def return_video_ids(playlist_id):
 
 def get_video_details(video_id):
     URL = "https://www.googleapis.com/youtube/v3/videos?part="
-    API_KEY = "AIzaSyAACDpViFfwP8tXHnnw6BSNM04VpDMb05Y"
+    API_KEY = "YOUR_API_KEY"
     content_details = requests.get(f"{URL}contentDetails&id={video_id}&key={API_KEY}").json()['items'][0][
         'contentDetails']
     statistics = requests.get(f"{URL}statistics&id={video_id}&key={API_KEY}").json()['items'][0]['statistics']

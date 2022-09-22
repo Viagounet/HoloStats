@@ -1,6 +1,6 @@
 from dataclasses import dataclass
 
-from youtube.video import Video, Stream
+from youtube.video import Stream
 from yt_api import return_video_ids
 
 
@@ -13,7 +13,6 @@ class Channel:
 
         self.name: str = ""
         self.videos = []
-
 
     def retrieve_streams(self):
         for stream_id in return_video_ids(self.playlist_id):

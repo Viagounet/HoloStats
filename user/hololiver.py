@@ -1,3 +1,4 @@
+import glob
 import json
 import logging
 from dataclasses import dataclass
@@ -17,11 +18,18 @@ class Hololiver(Channel):
         self.members_dict = {}
         self.members_by_month_dict = {}
         self.statistics: Holostats = Holostats()
+        """if self.name + ".json" in glob.glob("data/full/*"):
+            with open(f"data/full/{self.name}", "r", encoding="utf-8") as f:
+                json_dict = json.load(f)
+                videos_json = json_dict["videos"]
+                for video_json in videos_json:
+                    video = Stream(videos_json["id"], videos_json["channel"], json_format=None)
+                    self.videos.append()"""
 
     @property
     def members(self):
         for stream in self.videos:
-            user_set = stream.chat.members
+            user_set = stream.members
             for user in user_set:
                 if user.is_member and user.channel_id not in self.members_dict:
                     self.members_dict[user.channel_id] = {"name": user.name, "nb_messages": user.nb_messages,
@@ -37,7 +45,7 @@ class Hololiver(Channel):
                 year, month = stream.actual_start_time.year, stream.actual_start_time.month
                 self.members_by_month_dict.setdefault(year, {})
                 self.members_by_month_dict[year].setdefault(month, {})
-                user_set = stream.chat.members
+                user_set = stream.members
                 for user in user_set:
                     # A little bit convoluted but ay, it works..
                     if user.is_member and user.channel_id not in self.members_by_month_dict[year][month].keys():
@@ -50,16 +58,18 @@ class Hololiver(Channel):
         return len(self.members)
 
     def __repr__(self):
-        return f"Hololiver(name={self.name}, channel={self.channel})"
+        return f"Hololiver(name={self.name})"
 
     def retrieve_streams(self):
         for stream_id in return_video_ids(self.playlist_id):
             try:
                 print(f"Retrieving info about : {stream_id}")
+
                 stream = Stream(stream_id, self)
                 self.videos.append(stream)
                 print(
-                    f"Done! Members found {len(stream.chat.members)} / Total members for {self.name} : {self.nb_numbers} - {stream}")
+                    f"Done! Members found {len(stream.chat.members)} / Total members for {self.name} : "
+                    f"{self.nb_numbers} - {stream}")
                 self.save()
             except Exception as ex:
                 print("There's been an error while processing streams :", ex)

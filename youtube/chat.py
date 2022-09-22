@@ -41,7 +41,7 @@ class Chat:
             try:
                 _ = json.loads(chat.get().json())
                 for message in _:
-                    self.chatters.manage_message(message, self.channel)
+                    self.chatters.manage_message(message)
                     self.n_messages += 1
             except Exception:
                 print("Error reading chat")
@@ -49,5 +49,4 @@ class Chat:
         self.members = [c for c in self.chatters if c.is_member]
 
     def json(self):
-        return {"members":[member.json() for member in self.members], "number messages":self.n_messages}
-
+        return {"members": [member.json() for member in self.members], "number messages": self.n_messages}

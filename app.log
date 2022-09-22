@@ -1,218 +1,2163 @@
-10-Sep-22 14:18:46 - Video error occured
-
-
-Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
-    infos = get_video_details(self.id)
-  File "D:\Python\Python\HoloStats\yt_api.py", line 40, in get_video_details
-    "actual_start_time": dateutil.parser.isoparse(live_streaming_details['actualStartTime']),
-KeyError: 'actualStartTime'
-10-Sep-22 14:25:37 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '"DAMMIT GURA!!"'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/h61lKyYZSQeK6MH4GT3e1OnpahpUv0rJRmuoJwkVmuRrA3yiiQcOzvFYsYRdixd1KCzQoVN3b34=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHR0ZEdjNWVtYzRYMnREUm1OVE1UVlJZMlJ2Y1UxSFVuY1NHME5RY2tSd2NuSkdPRjlyUTBaYVprcG5aMjlrVlhCSlNtcDNNQm80R2cwS0MxQlpXVk10ZUhVeWRYaFpLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMVUZsWlV5MTRkVEoxZUZrZ0FTZ0VNaG9LR0ZWRE9YSjNiekZqTm5RMU56SlNkVTFXTFZWSlFUWkNkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLbXRnOXpnOF9rQ0ZjUzE1UWNkb3FNR1J3EhtDUHJEcHJyRjhfa0NGWmZKZ2dvZFVwSUpqdzA%3D', 'timestampUsec': '1662040867395299', 'authorExternalChannelId': 'UC9rwo1c6t572RuMV-UIA6Bw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '3:28:24'}}}
+11-Sep-22 20:54:42 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hey'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHgxYWpWUGNuUTNVR05EUmxnd1FuSlJXV1JYYzFsT1YwRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNNUm80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNMdWo1T3J0N1BjQ0ZYMEJyUVlkV3NZTldBEhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzE%3D', 'timestampUsec': '1653007776813555', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '48:17'}}}
 
 
 
-10-Sep-22 15:02:57 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'you so cute and cringe i love it'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Le2sLnMDMirmF9r7IzE0Bq1oi_o2Cc0v2SZP13leV4Q=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Le2sLnMDMirmF9r7IzE0Bq1oi_o2Cc0v2SZP13leV4Q=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDE2Y3pKSmJVcDBkbXREUmxwMVZ6VlJZMlIzY1dkTFRYY1NHME5KVEhrM05GTktkSFpyUTBabGRWUTFVV05rVWt3NFJUZDNNQm80R2cwS0MyOVJSbk16Y1VSRVNGZFJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYjFGR2N6TnhSRVJJVjFFZ0FTZ0VNaG9LR0ZWRGNrTmpVazh5WlhaUlUxSlRNV2R4ZW5jMFZrNVlVVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNenMySW1KdHZrQ0ZadVc1UWNkd3FnS013EhtDSUx5NzRTSnR2a0NGZXVUNVFjZFJMOEU3dzA%3D', 'timestampUsec': '1659921396807303', 'authorExternalChannelId': 'UCrCcRO2evQSRS1gqzw4VNXQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:12:52'}}}
+11-Sep-22 20:54:42 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hey .'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHRmVGpSUVNIUTNVR05EUmxsTlVuSlJXV1JVYmxsTFpsRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNNaG80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLX040UEh0N1BjQ0ZZTVJyUVlkVG5ZS2ZREhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzI%3D', 'timestampUsec': '1653007791433445', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '48:32'}}}
 
 
 
-10-Sep-22 15:18:43 - Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 224, in process_input
+11-Sep-22 20:55:10 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'bong bong marcos HAHAHAHAHAHAHAHHA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDFoYm1kamVuYzNVR05EUmxoSlJXWlJiMlJ2TVZsR1psRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNOQm80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNYW5nY3p3N1BjQ0ZYSUVmUW9kbzFZRmZREhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzQ%3D', 'timestampUsec': '1653008517583862', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:00:38'}}}
+
+
+
+11-Sep-22 21:07:25 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'GOOO GURA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDVoYVhrM1puTTFYMk5EUmxSVlVXWlJiMlJRU0hkRFgyY1NHME5RVkZoNmIyNXpOVjlqUTBaalkydFpRVzlrVDBWVlJteEJNQm80R2cwS0MyOWhlVmd3VlVRMWIwVjNLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYjJGNVdEQlZSRFZ2UlhjZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNOYWl5N2ZzNV9jQ0ZUVVFmUW9kUEh3Q19nEhtDUFRYem9uczVfY0NGY2NrWUFvZE9FVUZsQTA%3D', 'timestampUsec': '1652835602321794', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '57:37'}}}
+
+
+
+11-Sep-22 22:02:46 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
     func, target_state = self._transitions[(self.state, input_)]
 KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 229, in process_input
-    "Invalid input %s in state %s" % (input_, old_state)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
 h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 144, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
     raise LocalProtocolError(exc)  # pragma: nocover
 httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
     raise mapped_exc(message) from exc
 httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
 
 
 
 
-10-Sep-22 15:18:45 - YET ANOTHER DUMB ERROR
+11-Sep-22 22:02:48 - YET ANOTHER DUMB ERROR
 
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 224, in process_input
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
     func, target_state = self._transitions[(self.state, input_)]
 KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 108, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
     self._send_request_headers(request=request, stream_id=stream_id)
-  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 205, in _send_request_headers
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
     self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 766, in send_headers
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
     self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 229, in process_input
-    "Invalid input %s in state %s" % (input_, old_state)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
 h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 60, in map_httpcore_exceptions
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
     yield
-  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 218, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
     resp = self._pool.handle_request(req)
-  File "C:\Python37\lib\site-packages\httpcore\_sync\connection_pool.py", line 253, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
     raise exc
-  File "C:\Python37\lib\site-packages\httpcore\_sync\connection_pool.py", line 237, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
     response = connection.handle_request(request)
-  File "C:\Python37\lib\site-packages\httpcore\_sync\connection.py", line 90, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
     return self._connection.handle_request(request)
-  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 144, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
     raise LocalProtocolError(exc)  # pragma: nocover
 httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\chat.py", line 28, in start
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
     chat = pytchat.create(video_id=self.id)
-  File "C:\Python37\lib\site-packages\pytchat\core\__init__.py", line 7, in create
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
     return PytchatCore(_vid, **kwargs)
-  File "C:\Python37\lib\site-packages\pytchat\core\pytchat.py", line 96, in __init__
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
     self._setup()
-  File "C:\Python37\lib\site-packages\pytchat\core\pytchat.py", line 106, in _setup
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
     channel_id=util.get_channelid(self._client, self._video_id),
-  File "C:\Python37\lib\site-packages\pytchat\util\__init__.py", line 103, in get_channelid
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
     resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
-  File "C:\Python37\lib\site-packages\httpx\_client.py", line 1048, in get
-    extensions=extensions,
-  File "C:\Python37\lib\site-packages\httpx\_client.py", line 815, in request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
     return self.send(request, auth=auth, follow_redirects=follow_redirects)
-  File "C:\Python37\lib\site-packages\httpx\_client.py", line 906, in send
-    history=[],
-  File "C:\Python37\lib\site-packages\httpx\_client.py", line 933, in _send_handling_auth
-    history=history,
-  File "C:\Python37\lib\site-packages\httpx\_client.py", line 967, in _send_handling_redirects
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
     response = self._send_single_request(request)
-  File "C:\Python37\lib\site-packages\httpx\_client.py", line 1003, in _send_single_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
     response = transport.handle_request(request)
-  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 218, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
     resp = self._pool.handle_request(req)
-  File "C:\Python37\lib\contextlib.py", line 130, in __exit__
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
     self.gen.throw(type, value, traceback)
-  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
     raise mapped_exc(message) from exc
 httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
-10-Sep-22 16:09:23 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hey'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHgxYWpWUGNuUTNVR05EUmxnd1FuSlJXV1JYYzFsT1YwRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNNUm80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNMdWo1T3J0N1BjQ0ZYMEJyUVlkV3NZTldBEhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzE%3D', 'timestampUsec': '1653007776813555', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '48:17'}}}
-
-
-
-10-Sep-22 16:09:23 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hey .'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHRmVGpSUVNIUTNVR05EUmxsTlVuSlJXV1JVYmxsTFpsRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNNaG80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNLX040UEh0N1BjQ0ZZTVJyUVlkVG5ZS2ZREhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzI%3D', 'timestampUsec': '1653007791433445', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '48:32'}}}
-
-
-
-10-Sep-22 16:09:40 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'bong bong marcos HAHAHAHAHAHAHAHHA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDFoYm1kamVuYzNVR05EUmxoSlJXWlJiMlJ2TVZsR1psRVNHME5MVEd0dlN6TjBOMUJqUTBaUmRFazVVVlZrUkZOVlNFNTNOQm80R2cwS0MzRkxha3RWVTFwSWNtTkJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY1V0cVMxVlRXa2h5WTBFZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNYW5nY3p3N1BjQ0ZYSUVmUW9kbzFZRmZREhtDS0xrb0szdDdQY0NGUXRJOVFVZERTVUhOdzQ%3D', 'timestampUsec': '1653008517583862', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:00:38'}}}
-
-
-
-10-Sep-22 17:17:32 - Video error occured
+11-Sep-22 22:59:52 - Video error occured
 
 
 Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
     infos = get_video_details(self.id)
-  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 39, in get_video_details
     "comment_count": int(statistics['commentCount']),
 KeyError: 'commentCount'
-10-Sep-22 17:28:45 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I MADE IT'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDVwWTNRMlNERnhVRmxEUm1aaVFuZG5VV1JLTTI5UGVFRVNHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NQm80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNOaWN0NkgxcVBZQ0ZmYkJ3Z1FkSjNvT3hBEhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzA%3D', 'timestampUsec': '1646275261746798', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:27'}}}
-
-
-
-10-Sep-22 17:28:45 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I JUST FINISHED MAH EXAMS HAHAHAHHA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDl5VTNSaFpqRnhVRmxEUmxGdmRYSlJXV1J2WjNOSlFYY1NHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NUm80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNPclN0YWYxcVBZQ0ZRb3VyUVlkb2dzSUF3EhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzE%3D', 'timestampUsec': '1646275274303894', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:39'}}}
-
-
-
-10-Sep-22 17:28:46 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'oh nyo i failed all of it'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMGx5TjNoeFh6RnhVRmxEUmxaelpISlJXV1ExZVdkUE1sRVNHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NaG80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNJcjd4cV8xcVBZQ0ZWc2RyUVlkNXlnTzJREhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzI%3D', 'timestampUsec': '1646275291364821', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:56'}}}
-
-
-
-10-Sep-22 18:23:22 - Video error occured
-
-
-Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
-    infos = get_video_details(self.id)
-  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
-    "comment_count": int(statistics['commentCount']),
-KeyError: 'commentCount'
-10-Sep-22 19:04:56 - Video error occured
-
-
-Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
-    infos = get_video_details(self.id)
-  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
-    "comment_count": int(statistics['commentCount']),
-KeyError: 'commentCount'
-10-Sep-22 22:38:35 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'collect netherite'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/DplTsHJpHNLBiCXGKvBmpheOGP7f7PgjM3ssha7Lzk3-R274n71V-BYOZuxLc-D9RMWkqBhNBg=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/DplTsHJpHNLBiCXGKvBmpheOGP7f7PgjM3ssha7Lzk3-R274n71V-BYOZuxLc-D9RMWkqBhNBg=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMHRUUlRsS2FuSjVVRTFEUm1WUlpHWlJiMlJEWDFGTVEyY1NKME5PZFhCcVgxOXhlVkJOUTBaVE0xbGpkMFZrTjJORlJGZFJNVFl6TkRFM056a3pNREF5TmhvNEdnMEtDMHcxUVhvNVdWaE9WVlZuS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTFREVkJlamxaV0U1VlZXY2dBU2dFTWhvS0dGVkRka2xDVWtzMGMyRklVRE41Um1Kd1YyNTRjRm94UVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNLU0U5SmpyeVBNQ0ZlUWRmUW9kQ19RTENnEidDTnVwal9fcXlQTUNGUzNZY3dFZDdjRURXUTE2MzQxNzc5MzAwMjY%3D', 'timestampUsec': '1634177931608677', 'authorExternalChannelId': 'UCvIBRK4saHP3yFbpWnxpZ1A', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '22:41'}}}
-
-
-
-11-Sep-22 00:10:19 - Video error occured
-
-
-Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
-    infos = get_video_details(self.id)
-  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
-    "comment_count": int(statistics['commentCount']),
-KeyError: 'commentCount'
-11-Sep-22 03:35:19 - Video error occured
-
-
-Traceback (most recent call last):
-  File "D:\Python\Python\HoloStats\youtube\video.py", line 22, in __init__
-    infos = get_video_details(self.id)
-  File "D:\Python\Python\HoloStats\yt_api.py", line 39, in get_video_details
-    "comment_count": int(statistics['commentCount']),
-KeyError: 'commentCount'
-11-Sep-22 05:50:21 - Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 224, in process_input
+11-Sep-22 23:18:21 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
     func, target_state = self._transitions[(self.state, input_)]
 KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\h2\connection.py", line 229, in process_input
-    "Invalid input %s in state %s" % (input_, old_state)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
 h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
 
 During handling of the above exception, another exception occurred:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\httpcore\_sync\http2.py", line 144, in handle_request
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
     raise LocalProtocolError(exc)  # pragma: nocover
 httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
 
 The above exception was the direct cause of the following exception:
 
 Traceback (most recent call last):
-  File "C:\Python37\lib\site-packages\httpx\_transports\default.py", line 77, in map_httpcore_exceptions
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
     raise mapped_exc(message) from exc
 httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
 
 
 
 
+11-Sep-22 23:18:23 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+11-Sep-22 23:32:34 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I MADE IT'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDVwWTNRMlNERnhVRmxEUm1aaVFuZG5VV1JLTTI5UGVFRVNHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NQm80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNOaWN0NkgxcVBZQ0ZmYkJ3Z1FkSjNvT3hBEhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzA%3D', 'timestampUsec': '1646275261746798', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:27'}}}
+
+
+
+11-Sep-22 23:32:34 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I JUST FINISHED MAH EXAMS HAHAHAHHA'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDl5VTNSaFpqRnhVRmxEUmxGdmRYSlJXV1J2WjNOSlFYY1NHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NUm80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNPclN0YWYxcVBZQ0ZRb3VyUVlkb2dzSUF3EhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzE%3D', 'timestampUsec': '1646275274303894', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:39'}}}
+
+
+
+11-Sep-22 23:32:35 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'oh nyo i failed all of it'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_u-ynnXtbvZ5UH6uOuH9ilTblYDIOkA4wZsDszHKoeOQ=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMGx5TjNoeFh6RnhVRmxEUmxaelpISlJXV1ExZVdkUE1sRVNHME5QYWxjME5UTXhjVkJaUTBaWWFFUkVkMGxrUzJ0M1MycG5NaG80R2cwS0MyazJOMEp2U1dOMFFVMXJLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYVRZM1FtOUpZM1JCVFdzZ0FTZ0VNaG9LR0ZWRGRFeHBXRjh3VjJWaldISm9kVWhXVEhnMFgzWk1RVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNJcjd4cV8xcVBZQ0ZWc2RyUVlkNXlnTzJREhtDT2pXNDUzMXFQWUNGWGhERHdJZEtrd0tqZzI%3D', 'timestampUsec': '1646275291364821', 'authorExternalChannelId': 'UCtLiX_0WecXrhuHVLx4_vLA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:39:56'}}}
+
+
+
+12-Sep-22 00:18:28 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 00:18:30 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 01:18:35 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 01:18:38 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+12-Sep-22 01:18:38 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 02:18:43 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 02:18:46 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+12-Sep-22 02:18:46 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 03:18:48 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 03:18:51 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 04:18:53 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 04:18:56 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 05:19:01 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 05:19:04 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 06:19:07 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 06:19:10 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 07:19:12 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 07:19:16 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 08:19:18 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 08:19:22 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 08:50:14 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'collect netherite'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/DplTsHJpHNLBiCXGKvBmpheOGP7f7PgjM3ssha7Lzk3-R274n71V-BYOZuxLc-D9RMWkqBhNBg=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/DplTsHJpHNLBiCXGKvBmpheOGP7f7PgjM3ssha7Lzk3-R274n71V-BYOZuxLc-D9RMWkqBhNBg=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMHRUUlRsS2FuSjVVRTFEUm1WUlpHWlJiMlJEWDFGTVEyY1NKME5PZFhCcVgxOXhlVkJOUTBaVE0xbGpkMFZrTjJORlJGZFJNVFl6TkRFM056a3pNREF5TmhvNEdnMEtDMHcxUVhvNVdWaE9WVlZuS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTFREVkJlamxaV0U1VlZXY2dBU2dFTWhvS0dGVkRka2xDVWtzMGMyRklVRE41Um1Kd1YyNTRjRm94UVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNLU0U5SmpyeVBNQ0ZlUWRmUW9kQ19RTENnEidDTnVwal9fcXlQTUNGUzNZY3dFZDdjRURXUTE2MzQxNzc5MzAwMjY%3D', 'timestampUsec': '1634177931608677', 'authorExternalChannelId': 'UCvIBRK4saHP3yFbpWnxpZ1A', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '22:41'}}}
+
+
+
+12-Sep-22 10:07:17 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 10:07:21 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 10:45:26 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+12-Sep-22 11:07:27 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+12-Sep-22 11:07:31 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+12-Sep-22 14:55:13 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+12-Sep-22 21:12:38 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '._.'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/Rir6A1xpxak8k2yR6gpyI1U6O76BQi00nBEmffDiIlXVzDPoX8mRTZ1gfyR9SHV8BW0TkOEv3dg=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/Rir6A1xpxak8k2yR6gpyI1U6O76BQi00nBEmffDiIlXVzDPoX8mRTZ1gfyR9SHV8BW0TkOEv3dg=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDVUWjNoalgxZ3hVRUZEUmxGdGNuZFJiMlJGVGpCUFIzY1NIRU5OWlVONmNuSllNVkJCUTBaWlJXeHpaMjlrTldsTlJtRlJMVEFhT0JvTkNndHlhMEozTmpSRk9GUjFOQ29uQ2hoVlEyOVRjbGxmU1ZGUlZuQnRTVkphT1ZobUxYazVNMmNTQzNKclFuYzJORVU0VkhVMElBRW9CRElhQ2hoVlEzRTFWakJCTVdaUmFsaFdNamwwVTBFMlJWQXlRbmM0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNOU2d4Y19YMVBBQ0ZRbXJ3UW9kRU4wT0d3EhxDTWVDenJyWDFQQUNGWUVsc2dvZDVpTUZhUS0w', 'timestampUsec': '1621390854803584', 'authorExternalChannelId': 'UCq5V0A1fQjXV29tSA6EP2Bw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:15:25'}}}
+
+
+
+12-Sep-22 21:14:39 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'GREETINGS, PEASANTS'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/3Cxoux8aL8ZVbeNSRNg6A5FAcWxfGCBVl-1K3oG1smRspuNq9ib8iujOZEW-aKWHtXd_VdQHNw=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/3Cxoux8aL8ZVbeNSRNg6A5FAcWxfGCBVl-1K3oG1smRspuNq9ib8iujOZEW-aKWHtXd_VdQHNw=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDFmVld0aFdHZ3hVRUZEUmxOblNISlJXV1JpVUhkQ1lVRVNHME5RUzAxeFlVaG9NVkJCUTBaUmNHSm9VVzlrUnpsM1IyWm5NQm80R2cwS0MzSnJRbmMyTkVVNFZIVTBLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMY210Q2R6WTBSVGhVZFRRZ0FTZ0VNaG9LR0ZWRGFXVkdTVWxxTkU1S1VtSnlVVGhxWjJ4Q2FVZERVVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNX1VrYVhoMVBBQ0ZTZ0hyUVlkYlB3QmFBEhtDUEtNcWFIaDFQQUNGUXBiaFFvZEc5d0dmZzA%3D', 'timestampUsec': '1621393450232441', 'authorExternalChannelId': 'UCieFIIj4NJRbrQ8jglBiGCQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:58:41'}}}
+
+
+
+13-Sep-22 03:20:02 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'hi'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMDl5TkhRMVgzZHlkVGhEUm1NelFYZFJiMlJMT0dORFZVRVNKME5RTWtscGNETjNjblU0UTBaVlR6RnJRVzlrZG5wSlRtRjNNVFl4TlRZNU16YzBOek0yTmhvNEdnMEtDMHB3WlhVNE5rTm5OUzFWS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTFNuQmxkVGcyUTJjMUxWVWdBU2dFTWhvS0dGVkRiamhwVm5Od2JWVklXWFZvZVV4blYwcDBPVTlMVVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNPcjR0NV93cnU4Q0ZjM0F3UW9kSzhjQ1VBEidDUDJJaXAzd3J1OENGVU8xa0FvZHZ6SU5hdzE2MTU2OTM3NDczNjY%3D', 'timestampUsec': '1615693748239516', 'authorExternalChannelId': 'UCn8iVspmUHYuhyLgWJt9OKQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '18:10'}}}
+
+
+
+13-Sep-22 03:20:12 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '15'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMUIyUm10MGNuZHlkVGhEUmxGdGNuZFJiMlIzT1ZsRGJFRVNKME5PY2xrdE4ySjNjblU0UTBaa1QwdHNVVWxrUkU5RlNXRlJNVFl4TlRZNU16ZzNNRFE1T0JvNEdnMEtDMHB3WlhVNE5rTm5OUzFWS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTFNuQmxkVGcyUTJjMUxWVWdBU2dFTWhvS0dGVkRiamhwVm5Od2JWVklXWFZvZVV4blYwcDBPVTlMVVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNQdkZrdHJ3cnU4Q0ZRbXJ3UW9kdzlZQ2xBEidDTnJZLTdid3J1OENGZE9LbFFJZERPRUlhUTE2MTU2OTM4NzA0OTg%3D', 'timestampUsec': '1615693871358756', 'authorExternalChannelId': 'UCn8iVspmUHYuhyLgWJt9OKQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '20:13'}}}
+
+
+
+13-Sep-22 06:10:47 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'love u grill <333333333'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMHhmUjJoZmRXUndMVFJEUmxaRFluZFJiMlJYYVVGTVlXY1NKME5KVEZKeFVFOWtjQzAwUTBaWlMwdHNVVWxrU2s5RlNVaEJNVFl4TVRBek16QTVORFUxTkJvNEdnMEtDek5uY0d0eGVIWjBjSEJOS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTE0yZHdhM0Y0ZG5Sd2NFMGdBU2dFTWhvS0dGVkRiamhwVm5Od2JWVklXWFZvZVV4blYwcDBPVTlMVVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNMX0doX3VkcC00Q0ZWQ2J3UW9kV2lBTGFnEidDSUxScVBPZHAtNENGWUtLbFFJZEpPRUlIQTE2MTEwMzMwOTQ1NTQ%3D', 'timestampUsec': '1611033095562092', 'authorExternalChannelId': 'UCn8iVspmUHYuhyLgWJt9OKQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:38:21'}}}
+
+
+
+13-Sep-22 06:28:11 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'love u girl!!'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMDVUYW5CTWJVWnJMVFJEUm1OTVozZFJiMlJXT0UxSlVtY1NKME5LVjJGbmNrZEdheTAwUTBaVlIwVnNVVWxrU1VOalQyOW5NVFl4TURNek9UTXlNREl3TmhvNEdnMEtDekYyYVc5MVdITjNVMUpCS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTE1YWnBiM1ZZYzNkVFVrRWdBU2dFTWhvS0dGVkRiamhwVm5Od2JWVklXWFZvZVV4blYwcDBPVTlMVVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNOU2pwTG1Gay00Q0ZjTGd3UW9kVjhNSVJnEidDSldhZ3JHRmstNENGVUdFbFFJZElDY09vZzE2MTAzMzkzMjAyMDY%3D', 'timestampUsec': '1610339320402438', 'authorExternalChannelId': 'UCn8iVspmUHYuhyLgWJt9OKQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:56:52'}}}
+
+
+
+13-Sep-22 06:40:34 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'lol'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/NOE1WNerU1UnaoTYoHK441JV9pXlJUqjYWzxi7RdkyulsEO8v73Sh-8H1yQr31C68C8-zC-7e5g=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/NOE1WNerU1UnaoTYoHK441JV9pXlJUqjYWzxi7RdkyulsEO8v73Sh-8H1yQr31C68C8-zC-7e5g=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDFNTlhabFlXUmZUekJEUm1Obk0zSlJXV1JvYURSSFVtY1NHME5RWm5ob2RESmtYMDh3UTBaVlNEVlBRVmxrVlc5alIwNUJNQm80R2cwS0MyODJiRzVUYm5GdU0xVmpLaWNLR0ZWRGIxTnlXVjlKVVZGV2NHMUpVbG81V0dZdGVUa3paeElMYnpac2JsTnVjVzR6VldNZ0FTZ0VNaG9LR0ZWRFNGRlRMVFF6VlU1RmRFSXhiekJuZFZKWlNURmhkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNTDV2ZWFkX08wQ0ZjZzNyUVlkaGg0R1JnEhtDUGZ4aHQyZF9PMENGVUg1T0FZZFVvY0dOQTA%3D', 'timestampUsec': '1609555583663361', 'authorExternalChannelId': 'UCHQS-43UNEtB1o0guRYI1aw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '15:46'}}}
+
+
+
+13-Sep-22 07:21:54 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I LOVE U GURAAAAAAAA I LOVE UUUU'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMDV4VUhGaVQzbDZUekJEUmxFMlluZFJiMlJtYTNOSFRVRVNKME5NWmxWMlduVjVlazh3UTBaYWEwUklaMEZrZUdOSlFqUkJNVFl3TnpreE1UZzBORFkzTnhvNEdnMEtDM1JSWTFZNVpVVklOMlpyS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTGRGRmpWamxsUlVnM1ptc2dBU2dFTWhvS0dGVkRiamhwVm5Od2JWVklXWFZvZVV4blYwcDBPVTlMVVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNOcVBxYk95ek8wQ0ZRNmJ3UW9kZmtzR01BEidDTGZVdlp1eXpPMENGWmtESGdBZHhjSUI0QTE2MDc5MTE4NDQ2Nzc%3D', 'timestampUsec': '1607911846070285', 'authorExternalChannelId': 'UCn8iVspmUHYuhyLgWJt9OKQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '10:41'}}}
+
+
+
+13-Sep-22 07:36:19 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'love u <3'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/7DcgJ4As5yaM6EBB8FcqvY5JbfrQwKL47S8-C__2GxHktUP12fGg6FVl92P5vEAYHZssES-0=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMHA2YTNoUVJGZDVaVEJEUmxWaE9HZG5iMlEyZUZWRWFtY1NKME5LYVZjMWRYcFhlV1V3UTBaalJVZElaMEZrYmsxdlNTMVJNVFl3TnpneE9EVTFOamcyTXhvNEdnMEtDelJDVGs5eVJqZFpNMlZSS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTE5FSk9UM0pHTjFrelpWRWdBU2dFTWhvS0dGVkRiamhwVm5Od2JWVklXWFZvZVV4blYwcDBPVTlMVVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNKemt4UERXeWUwQ0ZVYThnZ29kNnhVRGpnEidDSmlXNXV6V3llMENGY0VHSGdBZG5Nb0ktUTE2MDc4MTg1NTY4NjM%3D', 'timestampUsec': '1607818558911004', 'authorExternalChannelId': 'UCn8iVspmUHYuhyLgWJt9OKQ', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '14:10'}}}
+
+
+
+13-Sep-22 08:56:23 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'bonk'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMDFEUmpOTVgzaHNUekJEUmxGalJHZDNiMlJaUlhOSE4xRVNKME5MVTNSeVNtcDRiRTh3UTBaVk5sWmpRVzlrUVU0d1FteEJNVFl3TmpBd05EWXpOekkwTUJvNEdnMEtDemRXVkhkRFVVTjRSbmhOS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTE4xWlVkME5SUTNoR2VFMGdBU2dFTWhvS0dGVkRRbVpmVmpKQlNrZHZTREZVV1dab2NFUTNkM05oWnpnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNNQ0YzTF94bE8wQ0ZRY0Rnd29kWUVzRzdREidDS1N0ckpqeGxPMENGVTZWY0FvZEFOMEJsQTE2MDYwMDQ2MzcyNDA%3D', 'timestampUsec': '1606004638155456', 'authorExternalChannelId': 'UCBf_V2AJGoH1TYfhpD7wsag', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '23:40'}}}
+
+
+
+13-Sep-22 09:33:45 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'get a flint for arriw'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/5HS7RmsVBz9jetU21dxmjBiXKdxJYVw74hzIbfMLZf8d-qBVcF5HVN5VgVUwrUgbKAJmLDUxK28=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/5HS7RmsVBz9jetU21dxmjBiXKdxJYVw74hzIbfMLZf8d-qBVcF5HVN5VgVUwrUgbKAJmLDUxK28=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMUF6UjI0MFlucG5MVEJEUmxkWlIyZDNiMlIyUmpCRVFVRVNKME5LUjJNM2RsOTNaeTB3UTBaVmIxUXhVVzlrUW5oUlVFbG5NVFl3TlRReU1Ea3pPRFkyTWhvNEdnMEtDMnhOUm5KdU5UbFVUbDlqS2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTGJFMUdjbTQxT1ZST1gyTWdBU2dFTWhvS0dGVkRUWGd3YTJWV1IwMXZVM2hYV0ZGWFp6WlllVmR1UVRnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNQM0duNGJ6Zy0wQ0ZXWUdnd29kdkYwREFBEidDSkdjN3Zfd2ctMENGVW9UMVFvZEJ4UVBJZzE2MDU0MjA5Mzg2NjI%3D', 'timestampUsec': '1605420938945405', 'authorExternalChannelId': 'UCMx0keVGMoSxWXQWg6XyWnA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:45:39'}}}
+
+
+
+13-Sep-22 10:29:20 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+13-Sep-22 12:05:04 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'cute'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMHQ2V2pGTkxUQjFUM2REUm1NdFJuZG5SV1JJWjAxUGJrRVNKME5KTmsweU9HRXdkVTkzUTBaYVJVVXhVVzlrTTJaelJsWjNNVFl3TWpneU56RTVPVGcxTVJvNEdnMEtDMmh5WjB4bVlpMTFUR1U0S2ljS0dGVkRiMU55V1Y5SlVWRldjRzFKVWxvNVdHWXRlVGt6WnhJTGFISm5UR1ppTFhWTVpUZ2dBU2dFTWhvS0dGVkRRbVpmVmpKQlNrZHZTREZVV1dab2NFUTNkM05oWnpnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNLeloxTS0wdU93Q0ZjLUZ3Z0VkSGdNT25BEidDSTZNMjhhMHVPd0NGWkVFMVFvZDNmc0ZWdzE2MDI4MjcxOTk4NTE%3D', 'timestampUsec': '1602827201096876', 'authorExternalChannelId': 'UCBf_V2AJGoH1TYfhpD7wsag', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:45:03'}}}
+
+
+
+13-Sep-22 14:11:37 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'reload with ammo,'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Xgr3wLT7ux1nPpoSTlkUUPQiHJFFSVkOVo4La0-J20g=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Xgr3wLT7ux1nPpoSTlkUUPQiHJFFSVkOVo4La0-J20g=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHg2VlRKTUxUZG9VRzlEUm1SUWVYZFJiMlJRYjI5TFdFRVNHME5LVUdoZmRTMDBhRkJ2UTBaUlpra3hVVzlrYW5SblJHMTNNQm80R2cwS0MwVlVhRFF5Uld4UmFrVkZLaWNLR0ZWRGVXd3hlak5xYnpOWVNGSXhjbWxNUmt0SE5WVkJaeElMUlZSb05ESkZiRkZxUlVVZ0FTZ0VNaG9LR0ZWRGNIQkdkVEpOVmpoMGVsaDJXVEpyV1hweldYaFlkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNMelUyTC03aFBvQ0ZkUHl3UW9kUG9vS1hBEhtDSlBoX3UtNGhQb0NGUWZJMVFvZGp0Z0RtdzA%3D', 'timestampUsec': '1662614991415926', 'authorExternalChannelId': 'UCppFu2MV8tzXvY2kYzsYxXw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:23:45'}}}
+
+
+
+13-Sep-22 14:11:37 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'you need ammo in your shotgun'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Xgr3wLT7ux1nPpoSTlkUUPQiHJFFSVkOVo4La0-J20g=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Xgr3wLT7ux1nPpoSTlkUUPQiHJFFSVkOVo4La0-J20g=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMUJpVkhjNVJ6ZG9VRzlEUmxwUVluZFJiMlJOVjJOT2VtY1NHME5LVUdoZmRTMDBhRkJ2UTBaUlpra3hVVzlrYW5SblJHMTNNUm80R2cwS0MwVlVhRFF5Uld4UmFrVkZLaWNLR0ZWRGVXd3hlak5xYnpOWVNGSXhjbWxNUmt0SE5WVkJaeElMUlZSb05ESkZiRkZxUlVVZ0FTZ0VNaG9LR0ZWRGNIQkdkVEpOVmpoMGVsaDJXVEpyV1hweldYaFlkemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNQYlR3OUc3aFBvQ0ZaUGJ3UW9kTVdjTnpnEhtDSlBoX3UtNGhQb0NGUWZJMVFvZGp0Z0RtdzE%3D', 'timestampUsec': '1662615028820510', 'authorExternalChannelId': 'UCppFu2MV8tzXvY2kYzsYxXw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:24:23'}}}
+
+
+
+13-Sep-22 14:47:37 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'ban pants'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu9xneUFTBrMzb_6Tl6IXrxUyfHoMAMw_t1q2MUA8lgXuA=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu9xneUFTBrMzb_6Tl6IXrxUyfHoMAMw_t1q2MUA8lgXuA=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMHBZV2pKdlpqQjRYMnREUmxKalJ6Rm5RV1JqUVRoR2NVRVNHME5KZGtjMFh6TjZlRjlyUTBaUlZFVlpRVzlrVFZSdlQwMW5NQm80R2cwS0MyTldNMU5zUXpOMGJTMVpLaWNLR0ZWRGVXd3hlak5xYnpOWVNGSXhjbWxNUmt0SE5WVkJaeElMWTFZelUyeERNM1J0TFZrZ0FTZ0VNaG9LR0ZWRFFWTjNRVmxqU0daQ2RVTlBaamhOZFRObFJYSkJaemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNKWFoyb2YweF9rQ0ZSY0cxZ0FkY0E4RnFBEhtDSXZHNF8zenhfa0NGUVRFWUFvZE1Ub09NZzA%3D', 'timestampUsec': '1660534230789319', 'authorExternalChannelId': 'UCASwAYcHfBuCOf8Mu3eErAg', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:14:52'}}}
+
+
+
+13-Sep-22 14:52:32 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'Hi Ame'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMGxNYURGWlZITjJYMnREUmxwWVNIZG5VV1EwTURSSk1tY1NIRU5PUXpCdU9UTnlkbDlyUTBaV2FrZE9RV05rVTNCelQzWm5MVEFhT0JvTkNndDBZakZNY0ZKNk1GUkVjeW9uQ2hoVlEzbHNNWG96YW04eldFaFNNWEpwVEVaTFJ6VlZRV2NTQzNSaU1VeHdVbm93VkVSeklBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNJTGgxWVRzdl9rQ0ZaWEh3Z1FkNDA0STJnEhxDTkMwbjkzcnZfa0NGVmpHTkFjZFNwc092Zy0w', 'timestampUsec': '1660257199026356', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:53'}}}
+
+
+
+13-Sep-22 14:52:43 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'UoU'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMGxEWlRWYVdIUjJYMnREUmxWSlNXWlJiMlJ2WWtWRVowRVNIRU5PUXpCdU9UTnlkbDlyUTBaV2FrZE9RV05rVTNCelQzWm5MVE1hT0JvTkNndDBZakZNY0ZKNk1GUkVjeW9uQ2hoVlEzbHNNWG96YW04eldFaFNNWEpwVEVaTFJ6VlZRV2NTQzNSaU1VeHdVbm93VkVSeklBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNJQ2U1Wlh0dl9rQ0ZVSUlmUW9kb2JFRGdBEhxDTkMwbjkzcnZfa0NGVmpHTkFjZFNwc092Zy0z', 'timestampUsec': '1660257503366959', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '7:58'}}}
+
+
+
+13-Sep-22 14:52:44 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'WoW'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMHh1TkhWTGNuUjJYMnREUmxGRlVuSlJXV1JITFc5R2QwRVNIRU5PUXpCdU9UTnlkbDlyUTBaV2FrZE9RV05rVTNCelQzWm5MVFFhT0JvTkNndDBZakZNY0ZKNk1GUkVjeW9uQ2hoVlEzbHNNWG96YW04eldFaFNNWEpwVEVaTFJ6VlZRV2NTQzNSaU1VeHdVbm93VkVSeklBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNMbjR1S3J0dl9rQ0ZRRVJyUVlkRy1vRndBEhxDTkMwbjkzcnZfa0NGVmpHTkFjZFNwc092Zy00', 'timestampUsec': '1660257546681446', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '8:41'}}}
+
+
+
+13-Sep-22 14:52:47 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'Oh my god '}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDV1Um10emRuUjJYMnREUm1SQlQzSlJXV1J6TTNkRllWRVNIRU5PUXpCdU9UTnlkbDlyUTBaV2FrZE9RV05rVTNCelQzWm5MVFVhT0JvTkNndDBZakZNY0ZKNk1GUkVjeW9uQ2hoVlEzbHNNWG96YW04eldFaFNNWEpwVEVaTFJ6VlZRV2NTQzNSaU1VeHdVbm93VkVSeklBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNObkZrc3Z0dl9rQ0ZkQU9yUVlkczN3RWFREhxDTkMwbjkzcnZfa0NGVmpHTkFjZFNwc092Zy01', 'timestampUsec': '1660257615258386', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '9:50'}}}
+
+
+
+13-Sep-22 14:54:33 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'No'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDFMTlRGeGNqVjJYMnREUmxVd2NISlJXV1JtZWtsTlJVRVNIRU5PUXpCdU9UTnlkbDlyUTBaV2FrZE9RV05rVTNCelQzWm5MVGdhT0JvTkNndDBZakZNY0ZKNk1GUkVjeW9uQ2hoVlEzbHNNWG96YW04eldFaFNNWEpwVEVaTFJ6VlZRV2NTQzNSaU1VeHdVbm93VkVSeklBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNNSzUxcXI1dl9rQ0ZVMHByUVlkZnpJTUVBEhxDTkMwbjkzcnZfa0NGVmpHTkFjZFNwc092Zy04', 'timestampUsec': '1660260768390398', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:02:23'}}}
+
+
+
+13-Sep-22 14:57:47 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': '捆綁'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDl1YjNSWlExUjNVR3REUm1GTmFYSlJXV1JMZURoTFZWRVNIRU5OZFRGdE9YRlRkMUJyUTBaa1VrMUVkMGxrWWtOelIyaDNMVEFhT0JvTkNndDBZakZNY0ZKNk1GUkVjeW9uQ2hoVlEzbHNNWG96YW04eldFaFNNWEpwVEVaTFJ6VlZRV2NTQzNSaU1VeHdVbm93VkVSeklBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNPbm90WUNUd1BrQ0ZhTWlyUVlkS3g4S1VREhxDTXUxbTlxU3dQa0NGZFJNRHdJZGJDc0dody0w', 'timestampUsec': '1660267659097247', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:57:14'}}}
+
+
+
+13-Sep-22 14:58:29 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 16:06:58 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 16:24:27 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 16:35:48 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 16:48:35 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 17:00:51 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 20:12:26 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 40, in get_video_details
+    "actual_start_time": dateutil.parser.isoparse(live_streaming_details['actualStartTime']),
+KeyError: 'actualStartTime'
+13-Sep-22 20:48:42 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'What is she building?'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_by4FzKB941ir0rtvQbKPhpBWIu0JyqsfBgLnCmh6dlg=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_by4FzKB941ir0rtvQbKPhpBWIu0JyqsfBgLnCmh6dlg=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDVVWHpsbFMzZHZabFZEUmxaalNERm5RV1JmWWpoRFIyY1NHME5KV0doeE5FOTNiMlpWUTBaVlZHbFpRVzlrVlRoSlRISkJNQm80R2cwS0MzSXlhMDQwVVVaWWNWZHZLaWNLR0ZWRGVXd3hlak5xYnpOWVNGSXhjbWxNUmt0SE5WVkJaeElMY2pKclRqUlJSbGh4VjI4Z0FTZ0VNaG9LR0ZWRFIwMTVlV3BLVlVsblgxVnZVbGQxYzJWZlQzZERRVGdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNOVF85ZUt3b2ZVQ0ZWY0gxZ0FkX2I4Q0dnEhtDSVhocTRPd29mVUNGVVRpWUFvZFU4SUxyQTA%3D', 'timestampUsec': '1641618312364025', 'authorExternalChannelId': 'UCGMyyjJUIg_UoRWuse_OwCA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '46:13'}}}
+
+
+
+13-Sep-22 21:21:58 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 39, in get_video_details
+    "comment_count": int(statistics['commentCount']),
+KeyError: 'commentCount'
+13-Sep-22 22:27:25 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 23:20:18 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+13-Sep-22 23:20:21 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+13-Sep-22 23:20:21 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+14-Sep-22 00:11:56 - Traceback (most recent call last):
+  File "/usr/lib/python3.8/ssl.py", line 1101, in read
+    return self._sslobj.read(len)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_exceptions.py", line 12, in map_exceptions
+    raise to_exc(exc)
+httpcore.ReadError: [Errno 104] Connection reset by peer
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.ReadError: [Errno 104] Connection reset by peer
+
+
+
+
+16-Sep-22 20:51:54 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'bruh lol'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMDVoUkhGTlpVZ3labXREUm1KVlFYSlJXV1JtVW05SVIwRVNKME5QVUU0ME5HMUlNbVpyUTBaallXY3lRVlZrYmtjd1JrSjNNVFkyTVRFeU16VTNPVFF6TlJvNEdnMEtDMmhWUjFaMmN6RnpXV0ZKS2ljS0dGVkRUWGRIU0ZJd1FsUmFkVXh6YldwWlgwNVVOVkIzWnhJTGFGVkhWblp6TVhOWllVa2dBU2dFTWhvS0dGVkRRbVpmVmpKQlNrZHZTREZVV1dab2NFUTNkM05oWnpnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNOYURxTWVIMmZrQ0ZiVUFyUVlkZlJvSEdBEidDT1BONDRtSDJma0NGY2FnMkFVZG5HMEZCdzE2NjExMjM1Nzk0MzU%3D', 'timestampUsec': '1661123580002826', 'authorExternalChannelId': 'UCBf_V2AJGoH1TYfhpD7wsag', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:12:43'}}}
+
+
+
+16-Sep-22 20:51:55 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'ganbare'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/KJVNYV__qr6DnKLDeVDFm-6bJ2uZw9dB4vqlFE2SvIYi09elL7DJ8Db0zfkh2Nhai6HGnc2zeA=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2tjS1JRb2FRMDB5TjNjNUxVZ3labXREUmxVd2NISlJXV1J0VFZsSFNuY1NKME5LV0RNNGRHVklNbVpyUTBaVk9FNTBkMEZrUjNCelR6bG5NVFkyTVRFeU16WXpNREV4TlJvNEdnMEtDMmhWUjFaMmN6RnpXV0ZKS2ljS0dGVkRUWGRIU0ZJd1FsUmFkVXh6YldwWlgwNVVOVkIzWnhJTGFGVkhWblp6TVhOWllVa2dBU2dFTWhvS0dGVkRRbVpmVmpKQlNrZHZTREZVV1dab2NFUTNkM05oWnpnQ1NBRlFBUSUzRCUzRA=='}}, 'id': 'CkUKGkNNMjd3OS1IMmZrQ0ZVMHByUVlkbU1ZR0p3EidDSlgzOHRlSDJma0NGVThOdHdBZEdwc085ZzE2NjExMjM2MzAxMTU%3D', 'timestampUsec': '1661123630784037', 'authorExternalChannelId': 'UCBf_V2AJGoH1TYfhpD7wsag', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:13:34'}}}
+
+
+
+16-Sep-22 20:53:54 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'Hello Ina'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMUEyUm5BME1tOTZVR3REUmxVd2NISlJXV1ExZFhORWRFRVNIRU5OYlhFMFVFOXVlbEJyUTBaV2FFVkVkMGxrWDNwelRrSkJMVEFhT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNQNkZwNDJvelBrQ0ZVMHByUVlkNXVzRHRBEhxDTW1xNFBPbnpQa0NGVmhFRHdJZF96c05CQS0w', 'timestampUsec': '1660685640123188', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '27:22'}}}
+
+
+
+16-Sep-22 20:54:00 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'WoW'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDlxVDNGTmJXOTZVR3REUmxaclRuSlJXV1JpYldOSmRFRVNIRU5OYlhFMFVFOXVlbEJyUTBaV2FFVkVkMGxrWDNwelRrSkJMVElhT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNPak9xTW1velBrQ0ZWa05yUVlkYm1jSXRBEhxDTW1xNFBPbnpQa0NGVmhFRHdJZF96c05CQS0y', 'timestampUsec': '1660685765978016', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '29:28'}}}
+
+
+
+16-Sep-22 20:54:02 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'oooooooooooooooof'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMUJJUm14MGJXOTZVR3REUmxVd2NISlJXV1ExZFhORWRFRVNIRU5OYlhFMFVFOXVlbEJyUTBaV2FFVkVkMGxrWDNwelRrSkJMVFFhT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNQSEZsdG1velBrQ0ZVMHByUVlkNXVzRHRBEhxDTW1xNFBPbnpQa0NGVmhFRHdJZF96c05CQS00', 'timestampUsec': '1660685799236401', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '30:01'}}}
+
+
+
+16-Sep-22 20:54:15 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'HB'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMHQyWHpod1IzRjZVR3REUmxGRlVuSlJXV1JGY0ZWRWRFRVNIRU5OYlhFMFVFOXVlbEJyUTBaV2FFVkVkMGxrWDNwelRrSkJMVFVhT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNLdl84cEdxelBrQ0ZRRVJyUVlkRXBVRHRBEhxDTW1xNFBPbnpQa0NGVmhFRHdJZF96c05CQS01', 'timestampUsec': '1660686186627041', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '36:28'}}}
+
+
+
+16-Sep-22 20:54:26 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'WoW'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMHR4WmpGUVpYRjZVR3REUmxGUlFXWlJiMlJ1ZEZsTGRFRVNIRU5NTFdreGNqWnhlbEJyUTBaWmJuZFVRVWxrVW5KRlFYSlJMVElhT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNLcWYxUGVxelBrQ0ZRUUFmUW9kbnRZS3RBEhxDTC1pMXI2cXpQa0NGWW53VEFJZFJyRUFyUS0y', 'timestampUsec': '1660686400032743', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '40:02'}}}
+
+
+
+16-Sep-22 20:54:31 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I want to eat '}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDFxV1doelUzSjZVR3REUmxkTlpISlJXV1JhZGtGQ2JtY1NIRU5NTFdreGNqWnhlbEJyUTBaWmJuZFVRVWxrVW5KRlFYSlJMVE1hT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNNalloc1NyelBrQ0ZXTWRyUVlkWnZBQm5nEhxDTC1pMXI2cXpQa0NGWW53VEFJZFJyRUFyUS0z', 'timestampUsec': '1660686560242821', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '42:42'}}}
+
+
+
+16-Sep-22 20:54:36 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'I can’t see you Ina'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/4uYesC6fP1bcfwtseteJYu6naTXuSjhc5roR8NosqxMRT_dZly2PoXKwJ7iCZ3ifkylaNbwEyF8=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMDloYm05UWNYSjZVR3REUmxSQlVISlJXV1JQV1RCSFYwRVNIRU5NTFdreGNqWnhlbEJyUTBaWmJuZFVRVWxrVW5KRlFYSlJMVFlhT0JvTkNnc3RkMVkyV25GcFVFbDBNQ29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQ3kxM1ZqWmFjV2xRU1hRd0lBRW9CRElhQ2hoVlExSXdXVTVhUWt4Q2FYYzRTekpSTkhaM2VrNVZVM2M0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNPYW5vUHFyelBrQ0ZUQVByUVlkT1kwR1dBEhxDTC1pMXI2cXpQa0NGWW53VEFJZFJyRUFyUS02', 'timestampUsec': '1660686673908770', 'authorExternalChannelId': 'UCR0YNZBLBiw8K2Q4vwzNUSw', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '44:36'}}}
+
+
+
+16-Sep-22 21:13:31 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+16-Sep-22 22:08:42 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+16-Sep-22 22:08:43 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+17-Sep-22 00:00:38 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'How do you take the katana with 2 hands ?'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/RitqxuoNKLTBlh7wgM3ugdM8Si5FYcfbRm5kW6i5VcOsDAqRsvebtN-e05wR579tMMdHk3hNrw=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/RitqxuoNKLTBlh7wgM3ugdM8Si5FYcfbRm5kW6i5VcOsDAqRsvebtN-e05wR579tMMdHk3hNrw=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDlJYWpkSlZFTTRabGxEUmxGcVpuZFJiMlJ6TlZWSU4yY1NHME5OZVdZMFdVTnRPR1paUTBaaFYzTXpaMjlrTlRaQlJsWkJNQm80R2cwS0MwVldZM00xZW5ONE5UUkJLaWNLR0ZWRFRYZEhTRkl3UWxSYWRVeHpiV3BaWDA1VU5WQjNaeElMUlZaamN6VjZjM2cxTkVFZ0FTZ0VNaG9LR0ZWRFdtMDJhV1kyWjIxbWMxQnRiMUE0UTBwRmNXUkNaemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNPSGo3SVRDOGZZQ0ZRamZ3UW9kczVVSDdnEhtDTXlmNFlDbThmWUNGYVdzM2dvZDU2QUZWQTA%3D', 'timestampUsec': '1648769772499507', 'authorExternalChannelId': 'UCZm6if6gmfsPmoP8CJEqdBg', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:27:24'}}}
+
+
+
+17-Sep-22 02:57:52 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': 'Can you make purple lighting?'}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Le2sLnMDMirmF9r7IzE0Bq1oi_o2Cc0v2SZP13leV4Q=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu_Le2sLnMDMirmF9r7IzE0Bq1oi_o2Cc0v2SZP13leV4Q=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2p3S09nb2FRMHRZZVc4dFRIVnlYMVZEUmxWUlNERm5RV1JCUVVGUU5rRVNIRU5NZGtZeFRqTnhjbDlWUTBaU1prOHhVVzlrV2pGdlNtbDNMVEFhT0JvTkNndFlhMkpMVGxCbU1IQk1VU29uQ2hoVlEwMTNSMGhTTUVKVVduVk1jMjFxV1Y5T1ZEVlFkMmNTQzFocllrdE9VR1l3Y0V4UklBRW9CRElhQ2hoVlExZEVUMFk1YmpGdkxWVnBhVTlPVWtGVVZUWlpWa0U0QWtnQlVBRSUzRA=='}}, 'id': 'CjoKGkNLWHlvLUx1cl9VQ0ZVUUgxZ0FkQUFBUDZBEhxDTHZGMU4zcXJfVUNGUmZPMVFvZFoxb0ppdy0w', 'timestampUsec': '1642115990354317', 'authorExternalChannelId': 'UCWDOF9n1o-UiiONRATU6YVA', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '2:18:35'}}}
+
+
+
+17-Sep-22 03:14:40 - <class 'KeyError'>-'authorName' item:{'liveChatTextMessageRenderer': {'message': {'runs': [{'text': "LET'S GO INA"}]}, 'authorPhoto': {'thumbnails': [{'url': 'https://yt4.ggpht.com/ytc/AMLnZu9xneUFTBrMzb_6Tl6IXrxUyfHoMAMw_t1q2MUA8lgXuA=s32-c-k-c0x00ffffff-no-rj', 'width': 32, 'height': 32}, {'url': 'https://yt4.ggpht.com/ytc/AMLnZu9xneUFTBrMzb_6Tl6IXrxUyfHoMAMw_t1q2MUA8lgXuA=s64-c-k-c0x00ffffff-no-rj', 'width': 64, 'height': 64}]}, 'contextMenuEndpoint': {'commandMetadata': {'webCommandMetadata': {'ignoreNavigation': True}}, 'liveChatItemContextMenuEndpoint': {'params': 'Q2pzS09Rb2FRMDF4TjJweVZEZHVkbFZEUmxsMlFuZG5VV1JaWmxWS05FRVNHME5MTmxwNVpVaDZiblpWUTBaVVNWZHlVVmxrY25aRlVHcFJNQm80R2cwS0MxWk9jVGRmTjNSbWNsSk5LaWNLR0ZWRFRYZEhTRkl3UWxSYWRVeHpiV3BaWDA1VU5WQjNaeElMVms1eE4xODNkR1p5VWswZ0FTZ0VNaG9LR0ZWRE9HaHJhalpMYldzNVdFZ3paVGQ0UzJkdGNrbEhaemdDU0FGUUFRJTNEJTNE'}}, 'id': 'CjkKGkNNcTdqclQ3bnZVQ0ZZdkJ3Z1FkWWZVSjRBEhtDSzZaeWVIem52VUNGVElXclFZZHJ2RVBqUTA%3D', 'timestampUsec': '1641535267642870', 'authorExternalChannelId': 'UC8hkj6Kmk9XH3e7xKgmrIGg', 'contextMenuAccessibility': {'accessibilityData': {'label': 'Chat actions'}}, 'timestampText': {'simpleText': '1:21'}}}
+
+
+
+17-Sep-22 07:26:08 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+17-Sep-22 07:26:12 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+17-Sep-22 08:16:08 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 40, in get_video_details
+    "actual_start_time": dateutil.parser.isoparse(live_streaming_details['actualStartTime']),
+KeyError: 'actualStartTime'
+17-Sep-22 09:08:08 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+17-Sep-22 09:08:12 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+17-Sep-22 09:37:32 - Video error occured
+
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/video.py", line 22, in __init__
+    infos = get_video_details(self.id)
+  File "/home/ismael/Documents/Scripts/HoloStats/yt_api.py", line 35, in get_video_details
+    live_streaming_details = requests.get(f"{URL}liveStreamingDetails&id={video_id}&key={API_KEY}").json()['items'][0][
+KeyError: 'liveStreamingDetails'
+17-Sep-22 10:26:34 - Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.RECV_PING: 14>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.RECV_PING in state ConnectionState.CLOSED
+
+
+
+
+17-Sep-22 10:26:38 - YET ANOTHER DUMB ERROR
+
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 224, in process_input
+    func, target_state = self._transitions[(self.state, input_)]
+KeyError: (<ConnectionState.CLOSED: 3>, <ConnectionInputs.SEND_HEADERS: 0>)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 108, in handle_request
+    self._send_request_headers(request=request, stream_id=stream_id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 205, in _send_request_headers
+    self._h2_state.send_headers(stream_id, headers, end_stream=end_stream)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 766, in send_headers
+    self.state_machine.process_input(ConnectionInputs.SEND_HEADERS)
+  File "/home/ismael/.local/lib/python3.8/site-packages/h2/connection.py", line 228, in process_input
+    raise ProtocolError(
+h2.exceptions.ProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 60, in map_httpcore_exceptions
+    yield
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 253, in handle_request
+    raise exc
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection_pool.py", line 237, in handle_request
+    response = connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/connection.py", line 90, in handle_request
+    return self._connection.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpcore/_sync/http2.py", line 144, in handle_request
+    raise LocalProtocolError(exc)  # pragma: nocover
+httpcore.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/ismael/Documents/Scripts/HoloStats/youtube/chat.py", line 28, in start
+    chat = pytchat.create(video_id=self.id)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/__init__.py", line 7, in create
+    return PytchatCore(_vid, **kwargs)
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 96, in __init__
+    self._setup()
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/core/pytchat.py", line 106, in _setup
+    channel_id=util.get_channelid(self._client, self._video_id),
+  File "/home/ismael/.local/lib/python3.8/site-packages/pytchat/util/__init__.py", line 103, in get_channelid
+    resp = client.get("https://www.youtube.com/embed/{}".format(quote(video_id)), headers=config.headers)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1039, in get
+    return self.request(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 815, in request
+    return self.send(request, auth=auth, follow_redirects=follow_redirects)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 902, in send
+    response = self._send_handling_auth(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 930, in _send_handling_auth
+    response = self._send_handling_redirects(
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 967, in _send_handling_redirects
+    response = self._send_single_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_client.py", line 1003, in _send_single_request
+    response = transport.handle_request(request)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 218, in handle_request
+    resp = self._pool.handle_request(req)
+  File "/usr/lib/python3.8/contextlib.py", line 131, in __exit__
+    self.gen.throw(type, value, traceback)
+  File "/home/ismael/.local/lib/python3.8/site-packages/httpx/_transports/default.py", line 77, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Invalid input ConnectionInputs.SEND_HEADERS in state ConnectionState.CLOSED

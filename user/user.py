@@ -1,4 +1,3 @@
-import inspect
 from dataclasses import dataclass
 
 
@@ -12,7 +11,7 @@ class User:
         self.is_member = False
         self.nb_messages = 0
 
-    def add_message(self, message, channel):
+    def add_message(self, message):
         self.nb_messages += 1
         if message["author"]["type"] == "MEMBER":
             self.is_member = True

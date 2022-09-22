@@ -3,9 +3,7 @@ import time
 import pandas as pd
 import logging
 
-from user.hololiver import Hololiver
 from user.hololivers_managers import HololiversManager
-from youtube.channel import Channel
 
 logging.basicConfig(filename='app.log', filemode='a', format='%(asctime)s - %(message)s\n\n\n',
                     datefmt='%d-%b-%y %H:%M:%S')
